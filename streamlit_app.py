@@ -10,7 +10,7 @@ import numpy as np
 
 def draw_circle(radius):
     fig, ax = plt.subplots(figsize=(6, 6))
-    circle = plt.Circle((0, 0), radius, color='bl', fill=False)
+    circle = plt.Circle((0, 0), radius, color='k', fill=False)
     ax.add_artist(circle)
     ax.set_xlim(-radius-1, radius+1)
     ax.set_ylim(-radius-1, radius+1)
