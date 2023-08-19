@@ -38,7 +38,7 @@ player_position = list(start)
 def draw_maze(maze, position):
     """Display the maze with the player's current position."""
     display = maze.copy()
-    display[position[0], position[1]] = 3
+    # display[position[0], position[1]] = 3
     st.image(display, caption="Maze", width=300, channels="GRAY")
 
 
