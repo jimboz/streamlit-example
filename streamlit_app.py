@@ -40,7 +40,7 @@ def draw_maze(maze, position):
     display = maze.copy()
     print(maze)
     # display[position[0], position[1]] = 3
-    st.image(display, caption="Maze", width=300, channels="GRAY")
+    st.image(display, caption="Maze", width=300, channels="BLUE")
 
 
 def move(direction, position):
