@@ -40,7 +40,7 @@ def draw_maze(maze, position):
     display = maze.copy()
     print(maze)
     # display[position[0], position[1]] = 3
-    st.image(display, caption="Maze", width=300, channels="BLUE")
+    st.image(display, caption="Maze", width=300, channels="GRAY")
 
 
 def move(direction, position):
@@ -58,7 +58,7 @@ def move(direction, position):
     return tuple(new_position)
 
 
-st.title("Maze Puzzle")
+st.title("Nicholas Puzzle")
 
 draw_maze(maze, player_position)
 
