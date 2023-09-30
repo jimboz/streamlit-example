@@ -50,6 +50,8 @@ def move(direction, position):
     new_position[0] += move[0]
     new_position[1] += move[1]
 
+    print(maze)
+
     # Check for walls
     if maze[new_position[0], new_position[1]] == 1:
         return position
